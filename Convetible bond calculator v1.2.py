@@ -8,14 +8,14 @@ import scipy.stats as sps
 import matplotlib.pyplot as plt
 import datetime
 
-#import easyquotation as eq
-#quote=eq.use('sina')
+import easyquotation as eq
+quote=eq.use('sina')
 
-#def getQuote(ticker):
-#	return float(list(quote.real(ticker).values())[0]['now'])
+def getQuote(ticker):
+	return float(list(quote.real(ticker).values())[0]['now'])
 
-#def getName(ticker):
-#	return list(quote.real(ticker).values())[0]['name']
+def getName(ticker):
+	return list(quote.real(ticker).values())[0]['name']
 
 def Outputdf(df,name='output'):
 	df.to_csv(str(name)+'.csv')
