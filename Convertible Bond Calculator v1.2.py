@@ -1,3 +1,6 @@
+#1. Internet connection required
+#2. Support real-time quotation
+#3. Copyright 13300200009@fudan.edu.cn
 import ast
 import datetime
 import sys
